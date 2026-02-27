@@ -5,10 +5,10 @@
 //#include <ncurses.h> ignore for now
 #include <locale.h>
 
-#define stdscr 1
-#define TRUE   2
-#define ERR    -1
-void keypad(int null, int null1);
+//#define stdscr 1
+//#define TRUE   2
+//#define ERR    -1
+//void keypad(int null, int null1);
 
 void init_ncurses(void)
 {
