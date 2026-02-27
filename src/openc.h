@@ -26,4 +26,6 @@ void oc_fillScreen(OC_ctx* ctx, RGB color);
 void oc_renderPixel(OC_ctx* ctx, IVec2 pos, RGB color);
 void oc_updateScreen(OC_ctx* ctx);
 
+b8 oc_isKeyPressed(OC_ctx* ctx, char key);
+
 #endif
